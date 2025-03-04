@@ -100,7 +100,7 @@ input, select, textarea {
 
 	body {
 		background-attachment: fixed, fixed;
-		background-image: url("images/angular-lines-up.svg"), url("../../images/bg.jpg");
+/*		background-image: url("images/angular-lines-up.svg"), url("../../images/bg.jpg");*/
 		background-position: center -315px, center top;
 		background-repeat: no-repeat;
 		background-size: auto, cover;
@@ -108,7 +108,7 @@ input, select, textarea {
 
 		body.landing {
 			background-attachment: scroll, scroll, fixed;
-			background-image: url("images/angular-lines-up.svg"), url("images/angular-lines-down.svg"), url("../../images/bg.jpg");
+/*			background-image: url("images/angular-lines-up.svg"), url("images/angular-lines-down.svg"), url("../../images/bg.jpg");*/
 			background-position: center top, center bottom, center top;
 			background-size: auto, auto, cover;
 		}
@@ -2731,7 +2731,7 @@ input, select, textarea {
 	}
 
 	header.style1, header.style2, header.style3, header.style4 {
-		background-image: url("images/overlay.png"), url("images/checker-pattern.svg");
+/*		background-image: url("images/overlay.png"), url("images/checker-pattern.svg");*/
 		background-position: center top;
 		background-repeat: repeat;
 	}
@@ -3924,7 +3924,7 @@ input, select, textarea {
 				}
 
 		.wrapper.style2, .wrapper.style3, .wrapper.style4 {
-			background-image: url("images/overlay.png"), url("images/checker-pattern.svg");
+/*			background-image: url("images/overlay.png"), url("images/checker-pattern.svg");*/
 			background-position: center top;
 			background-repeat: repeat, repeat;
 		}
