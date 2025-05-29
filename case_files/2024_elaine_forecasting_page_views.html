@@ -43,8 +43,13 @@
 					<section>
 						<header class="major">
 							<h2>1. Collecting the Data</h2>
+							<p>For this particular project, Elaine used data gathered by real page views to a published django site. She helped code the backend, including introducing a view count module that would post a row to a view count database table with key characteristics collected from web traffic.</p>
 						</header>
-						<p></p>
+						<section>
+							<span class="image">
+								<img src="case_file_images/2024_elaine_view_count.png" alt="">
+							</span>
+						</section>
 					</section>
 				</div>
 			</section>
@@ -53,8 +58,13 @@
 					<section>
 						<header class="major">
 							<h2>2. Processing the Data</h2>
+							<p>Once Elaine collected the page views into a postgresql table, she had to clean the data, using a truncation date before which was noisy data, and thinking a bit about how to map the raw data to the correct format. Beyond that, Elaine collected some browser information to more uniquely identify viewers.</p>
 						</header>
-						<p></p>
+						<section>
+							<span class="image">
+								<img src="case_file_images/2024_elaine_data_preprocessing.png" alt="">
+							</span>
+						</section>
 					</section>
 				</div>
 			</section>
@@ -63,24 +73,27 @@
 					<section>
 						<header class="major">
 							<h2>3. Modeling with Prophet</h2>
-							<p>Once the data was in proper shape, Elaine performed some hyperparameter tuning on Meta's Prophet model with RMSE as an evaluaton metric.</p>
+							<p>Once the data was in proper shape, Elaine performed some hyperparameter tuning on Meta's Prophet model with RMSE as an evaluaton metric, taking into account trend and daily seasonality. She was able to optimize her model to achieve a lower RMSE than base, and was able to visualize forecasted page views.</p>
 						</header>
-						<section class="spotlights">
-							<section>
-								<span class="image">
-									<img src="case_file_images/2024_elaine_prophet_base_model.png" alt="">
-								</span>
-							</section>
-							<section>
-								<span class="image">
-									<img src="case_file_images/2024_elaine_prophet_base_model.png" alt="">
-								</span>
-							</section>
-							<section>
-								<span class="image">
-									<img src="case_file_images/2024_elaine_prophet_base_model.png" alt="">
-								</span>
-							</section>
+						<section>
+							<span class="image">
+								<img src="case_file_images/2024_elaine_prophet_base_model.png" alt="">
+							</span>
+						</section>
+						<section>
+							<span class="image">
+								<img src="case_file_images/2024_elaine_trend_daily_seasonality.png" alt="">
+							</span>
+						</section>
+						<section>
+							<span class="image">
+								<img src="case_file_images/2024_elaine_hyperparameter_tuning.png" alt="">
+							</span>
+						</section>
+						<section>
+							<span class="image">
+								<img src="case_file_images/2024_elaine_forecasted_data.png" alt="">
+							</span>
 						</section>
 					</section>
 				</div>
@@ -90,8 +103,13 @@
 					<section>
 						<header class="major">
 							<h2>4. Next Steps</h2>
+							<p>Given the short duration of the program, Elaine then identified future steps to take if given more time to pursue this particular avenue. With a modeling pipeline set up, Elaine could use her current model and improve upon it to inform future web traffic to the django site.</p>
 						</header>
-						<p></p>
+						<section>
+							<span class="image">
+								<img src="case_file_images/2024_elaine_next_steps.png" alt="">
+							</span>
+						</section>
 					</section>
 				</div>
 			</section>
